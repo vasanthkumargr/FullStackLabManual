@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
-import confetti from 'canvas-confetti' // We won't install this to avoid complexity, but we'll simulate effects or use basic CSS animations
+import './App.css'
 
 function App() {
   const [num1, setNum1] = useState(0)
